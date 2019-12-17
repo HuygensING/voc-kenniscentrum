@@ -1,0 +1,167 @@
+P {
+	color : #000000;
+}
+
+H2 {
+	padding : 0 33 0 20;
+	font-weight : bold;
+	font-size : 15px;
+	line-height : 15px;
+	font-family : Georgia, Times New Roman, Times, serif;
+}
+
+H2.foto {
+	padding : 0 33 0 20;
+	font-weight : bold;
+	font-size : 15px;
+	line-height : 15px;
+	font-family : Georgia, Times New Roman, Times, serif;
+	text-align : center;
+}
+
+H3 {
+	padding : 0 33 0 20;
+	font-weight : normal;
+	font-style : italic;
+	font-size : 15px;
+	line-height : 15px;
+	font-family : Georgia, Times New Roman, Times, serif;
+}
+
+.padded {
+	padding : 0 33 0 20;
+	font-size : 15px;
+	line-height : 24px;
+	font-family : Georgia, Times New Roman, Times, serif;
+}
+
+.adres {
+	padding : 0 33 0 40;
+	font-size : 15px;
+	line-height : 24px;
+	font-family : Georgia, Times New Roman, Times, serif;
+}
+
+.zoekomschrijving {
+	padding : 0 33 0 40;
+	font-size : 12px;
+	line-height : 24px;
+	font-family : Georgia, Times New Roman, Times, serif;
+}
+
+.zoekgegevens {
+	padding : 0 33 0 40;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	font-weight : bold;
+	line-height : 16px;
+	color : #000000;
+}
+
+SMALL {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	font-weight : bold;
+	line-height : 16px;
+	color : #663300;
+}
+
+.leftlinks {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	font-weight : bold;
+	line-height : 12px;
+	color : #663300;
+	padding : 0 0 6 24;
+}
+
+.bijschrift {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	font-weight : bold;
+	color: #663300;
+	padding : 8 0 15 0;
+}
+
+A:LINK {
+	font-weight : bold;
+	color : #000099;
+}
+
+A:HOVER {
+	font-weight : bold;
+	color : #0000ff;
+}
+
+A:ACTIVE {
+	font-weight : bold;
+	color : #0000cc;
+}
+
+A:VISITED {
+	font-weight : bold;
+	color : 660000;
+}
+
+A.dummy {
+	font-weight : normal;
+}
+
+A.nav:LINK {
+	font-weight : bold;
+	color : 000000;
+}
+
+A.nav:HOVER {
+	font-weight : bold;
+	color : #cc0000;
+}
+
+A.nav:ACTIVE {
+	font-weight : bold;
+	color : #cc0000;
+}
+
+A.nav:VISITED {
+	font-weight : bold;
+	color : #660000;
+}
+
+.navactive {
+	font-weight : bold;
+	color : #cc0000;	
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	font-weight : bold;
+	line-height : 12px;
+	padding : 0 0 6 24;
+}
+
+A.navimg:ACTIVE {
+	background-color : transparent;
+}
+
+UL {
+	font-size : 15px;
+	line-height : 24px;
+	font-family : Georgia, Times New Roman, Times, serif;
+	list-style : disc outside;
+	font-weight : normal;
+	padding : 0 33 0 0;
+}
+
+LI {
+	font-size : 15px;
+	line-height : 24px;
+	font-family : Georgia, Times New Roman, Times, serif;
+}
+
+
+
+.searchForm {
+	display:none;
+	}
+
+
+
+

@@ -1,0 +1,63 @@
+P {
+	color : #000000;
+}
+
+
+.padded {
+	padding : 0 99 0 20;
+	font-size : 12px;
+	line-height : 16px;
+	font-family : Georgia, Times New Roman, Times, serif;
+}
+
+.adres {
+	padding : 0 33 0 40;
+	font-size : 15px;
+	line-height : 24px;
+	font-family : Georgia, Times New Roman, Times, serif;
+}
+
+SMALL {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	font-weight : bold;
+	line-height : 16px;
+	color : #663300;
+}
+
+.leftlinks {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	font-weight : bold;
+	line-height : 16px;
+	color : #663300;
+	padding : 0 0 0 35;
+
+}
+
+.bijschrift {
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	font-weight : bold;
+	color: #663300;
+}
+
+A:LINK {
+	font-weight : bold;
+	color : #000099;
+}
+
+A:HOVER {
+	font-weight : bold;
+	color : #0000ff;
+}
+
+A:ACTIVE {
+	font-weight : bold;
+	color : #0000cc;
+}
+
+A:VISITED {
+	font-weight : bold;
+	color : 660000;
+}
