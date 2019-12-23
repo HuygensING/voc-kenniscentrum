@@ -56,7 +56,16 @@ my %links_db;			#links
 
 my $htmlfooter=<<HTMLFOOTER;
 </FONT>
-</BODY>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3962916-23"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-3962916-23');
+</script>
+</body>
 </HTML>
 HTMLFOOTER
 
@@ -261,7 +270,16 @@ my $html=<<HTMLPAGE;
 </TABLE>
 </CENTER>
 </FORM>
-</BODY>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3962916-23"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-3962916-23');
+</script>
+</body>
 </HTML>
 HTMLPAGE
 
@@ -620,17 +638,17 @@ sub translate_characters {
 
 	$translated_term =~ s/&(.?)(acute|grave|circ|uml|tilde);/$1/gs;
 	$translated_term =~ s/(&#247|&(nbsp|divide);)/ /og;
-	$translated_term =~ s/(&#(192|193|194|195|196|197|224|225|226|227|228|229|230);|À|Á|Â|Ã|Ä|Å|à|á|â|ã|ä|æ|å|&(.ring|aelig);)/a/og;
-	$translated_term =~ s/(&#223;|ß|&szlig;)/b/og;
-	$translated_term =~ s/(&#(199|231);|Ç|ç|&.cedil;)/c/og;
-	$translated_term =~ s/(&#(198|200|201|202|203|232|233|234|235);|Æ|È|É|Ê|Ë|è|é|ê|ë|&AElig;)/e/og;
-	$translated_term =~ s/(&#(204|205|206|207|236|238|239);|Ì|Í|Î|Ï|ì|í|î|ï)/i/og;
-	$translated_term =~ s/(&#(209|241);|ñ|Ñ)/n/og;
-	$translated_term =~ s/(&#(216|210|211|212|213|214|240|242|243|244|245|246|248);|Ø|Ò|Ó|Ô|Õ|Ö|ð|ò|ó|ô|õ|ö|ø|&(.slash|eth);)/o/og;
-	$translated_term =~ s/(&#(217|218|219|220|249|250|251|252);|Ù|Ú|Û|Ü|ù|ú|û|ü)/u/og;
-	$translated_term =~ s/(&#(222|254);|Þ|þ|&thorn;)/p/og;
-	$translated_term =~ s/(&#215;|×|&times;)/x/og;
-	$translated_term =~ s/(&#(221|253);|Ý|ý)/y/og;
+	$translated_term =~ s/(&#(192|193|194|195|196|197|224|225|226|227|228|229|230);|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|&(.ring|aelig);)/a/og;
+	$translated_term =~ s/(&#223;|ï¿½|&szlig;)/b/og;
+	$translated_term =~ s/(&#(199|231);|ï¿½|ï¿½|&.cedil;)/c/og;
+	$translated_term =~ s/(&#(198|200|201|202|203|232|233|234|235);|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|&AElig;)/e/og;
+	$translated_term =~ s/(&#(204|205|206|207|236|238|239);|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½)/i/og;
+	$translated_term =~ s/(&#(209|241);|ï¿½|ï¿½)/n/og;
+	$translated_term =~ s/(&#(216|210|211|212|213|214|240|242|243|244|245|246|248);|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|&(.slash|eth);)/o/og;
+	$translated_term =~ s/(&#(217|218|219|220|249|250|251|252);|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½|ï¿½)/u/og;
+	$translated_term =~ s/(&#(222|254);|ï¿½|ï¿½|&thorn;)/p/og;
+	$translated_term =~ s/(&#215;|ï¿½|&times;)/x/og;
+	$translated_term =~ s/(&#(221|253);|ï¿½|ï¿½)/y/og;
 
 	$translated_term =~ s/(&#34|&quot);/"/og;
 	$translated_term =~ s/&#35;/#/og;
